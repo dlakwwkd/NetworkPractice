@@ -25,6 +25,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MulticastSender", "Multicas
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MulticastReceiver", "MulticastReceiver\MulticastReceiver.vcxproj", "{DAF02915-BE81-4977-ADDB-F2DD6FD0269C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiThreadServer", "MultiThreadServer\MultiThreadServer.vcxproj", "{E896674A-CC67-4272-90EC-2714ED923B31}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiThreadClient", "MultiThreadClient\MultiThreadClient.vcxproj", "{554D168C-B5AE-4D4F-905B-1A46714F70D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -75,6 +79,14 @@ Global
 		{DAF02915-BE81-4977-ADDB-F2DD6FD0269C}.Debug|Win32.Build.0 = Debug|Win32
 		{DAF02915-BE81-4977-ADDB-F2DD6FD0269C}.Release|Win32.ActiveCfg = Release|Win32
 		{DAF02915-BE81-4977-ADDB-F2DD6FD0269C}.Release|Win32.Build.0 = Release|Win32
+		{E896674A-CC67-4272-90EC-2714ED923B31}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E896674A-CC67-4272-90EC-2714ED923B31}.Debug|Win32.Build.0 = Debug|Win32
+		{E896674A-CC67-4272-90EC-2714ED923B31}.Release|Win32.ActiveCfg = Release|Win32
+		{E896674A-CC67-4272-90EC-2714ED923B31}.Release|Win32.Build.0 = Release|Win32
+		{554D168C-B5AE-4D4F-905B-1A46714F70D7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{554D168C-B5AE-4D4F-905B-1A46714F70D7}.Debug|Win32.Build.0 = Debug|Win32
+		{554D168C-B5AE-4D4F-905B-1A46714F70D7}.Release|Win32.ActiveCfg = Release|Win32
+		{554D168C-B5AE-4D4F-905B-1A46714F70D7}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
