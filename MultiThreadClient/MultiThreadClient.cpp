@@ -40,7 +40,11 @@ int main(int argc, char* argv[])
 	servAdr.sin_port = htons(atoi(argv[2]));
 
 	if (connect(hSock, (SOCKADDR*)&servAdr, sizeof(servAdr)) == SOCKET_ERROR)
-		ErrorHandling("connect() error");
+	{
+		int error = WSAGetLastError();
+		printf("error : %d\n", error);
+	}
+		//ErrorHandling("connect() error");
 	
 	hSndThread = (HANDLE)_beginthreadex(NULL, 0, SendMsg, (void*)&hSock, 0, NULL);
 	hRcvThread = (HANDLE)_beginthreadex(NULL, 0, RecvMsg, (void*)&hSock, 0, NULL);
