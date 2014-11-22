@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CmplRouEchoServ", "CmplRouE
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StableEchoClnt", "StableEchoClnt\StableEchoClnt.vcxproj", "{DDEC6485-C5FB-4022-BE11-322B775162E1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IOCPEchoServer", "IOCPEchoServer\IOCPEchoServer.vcxproj", "{99482A41-2937-4DFF-A46D-7A69CDCF8BDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -123,6 +125,10 @@ Global
 		{DDEC6485-C5FB-4022-BE11-322B775162E1}.Debug|Win32.Build.0 = Debug|Win32
 		{DDEC6485-C5FB-4022-BE11-322B775162E1}.Release|Win32.ActiveCfg = Release|Win32
 		{DDEC6485-C5FB-4022-BE11-322B775162E1}.Release|Win32.Build.0 = Release|Win32
+		{99482A41-2937-4DFF-A46D-7A69CDCF8BDB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{99482A41-2937-4DFF-A46D-7A69CDCF8BDB}.Debug|Win32.Build.0 = Debug|Win32
+		{99482A41-2937-4DFF-A46D-7A69CDCF8BDB}.Release|Win32.ActiveCfg = Release|Win32
+		{99482A41-2937-4DFF-A46D-7A69CDCF8BDB}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
